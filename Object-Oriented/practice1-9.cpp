@@ -1,16 +1,29 @@
 ﻿#include <stdio.h>
 
-void Print(const char *str, int count)
+// recursive function
+int power(int x, int y)
 {
-	if (count <= 0) return;
+	if (y > 0)
+	{
+		return x * power(x, y - 1);
+	}
+	else
+	{
+		return 1;
+	}
+};
 
-	printf("%s\n", str);
-	Print(str, count - 1);
-}
-
-int main_1_9(void) 
+int main(void)
 {
-	Print("recursive function", 5);
+	int a = 2;
+	int b = 3;
+	int result = power(a,b);
+	printf("%d^%d = %d\n", a, b, result);
+
+	a = 4;
+	b = 5;
+	result = power(a, b);
+	printf("%d^%d = %d\n", a, b, result);
 
 	return 0;
 }
