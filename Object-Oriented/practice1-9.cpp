@@ -13,7 +13,7 @@ int power(int x, int y)
 	}
 };
 
-int main(void)
+int main_1_9(void)
 {
 	int a = 2;
 	int b = 3;
