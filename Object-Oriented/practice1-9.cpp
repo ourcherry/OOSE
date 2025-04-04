@@ -1,6 +1,6 @@
 ﻿#include <stdio.h>
 
-void Print(char *str, int count)
+void Print(const char *str, int count)
 {
 	if (count <= 0) return;
 
@@ -8,7 +8,7 @@ void Print(char *str, int count)
 	Print(str, count - 1);
 }
 
-int main(void) 
+int main_1_9(void) 
 {
 	Print("recursive function", 5);
 
