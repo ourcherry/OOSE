@@ -71,7 +71,7 @@ int main_5_8(void)
 {
     CShape S1(1, 5);
     CShape S2(2, 5);
-    CShape* pRect = new CShape[3];
+    CShape *pRect = new CShape[3];
 
     cout << "사각형 개수 : " << CShape::GetRectCount() << endl;
     cout << "원 개수     : " << CShape::GetCircleCount() << endl;
