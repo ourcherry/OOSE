@@ -44,7 +44,7 @@ CPoint Sub(CPoint P1, CPoint P2)
     return P3;
 }
 
-int main(void) 
+int main_6_7(void) 
 {
     CPoint P1(1, 2);
     CPoint P2(3, 4);

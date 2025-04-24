@@ -75,5 +75,17 @@
     <ClCompile Include="practice6-7.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="assignment1.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="assignment2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="assignment3.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="assignment4.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

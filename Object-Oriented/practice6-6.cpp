@@ -57,7 +57,7 @@ class CArray
         }
 };
 
-CArray Sum(CArray A1, CArray A2) 
+CArray Sum2(CArray A1, CArray A2) 
 {
     int minLen = (A1.length() < A2.length()) ? A1.length() : A2.length();
     int maxLen = (A1.length() < A2.length()) ? A2.length() : A1.length();
@@ -88,7 +88,7 @@ int main_6_6(void)
     CArray Ary1(5);
     CArray Ary2(7);
     Ary2.Set(0, 11).Set(1, 12).Set(2, 13);
-    CArray Ary3 = Sum(Ary1, Ary2);
+    CArray Ary3 = Sum2(Ary1, Ary2);
 
     Ary1.Print();
     Ary2.Print();

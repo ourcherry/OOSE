@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int* GetArray(int num)
+int* GetArray2(int num)
 {
 	if (num <= 0)
 	{
@@ -29,7 +29,7 @@ int main_2_6(void)
 {
 	int i;
 	int* pAry;
-	pAry = GetArray(5);
+	pAry = GetArray2(5);
 
 	for (i = 0; i < 5; i++)
 	{
